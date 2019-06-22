@@ -66,6 +66,7 @@ void loaddata(){
 				else {
 					tk = textUser.getText();
 					new UserDisplay(tk).setVisible(true);
+					frame.setVisible(false);
 				}
 
 			}
